@@ -79,6 +79,8 @@ trainer.train()
 ```python
 final_result = trainer.evaluate(eval_dataset=test_tz)
 print(final_result)
+final results:
+{'eval_loss': 0.3529483675956726, 'eval_accuracy': 0.92, 'eval_f1': 0.9186991869918699}
 ```
 
 **Predict sentiment on a new review:**
